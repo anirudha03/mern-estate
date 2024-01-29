@@ -35,12 +35,15 @@ export default function OAuth() {
   };
 
   return (
+    <div>
+        <div className="flex justify-center mb-4"><span>or</span></div>
     <button
       type="button"
       onClick={handleGoogleClick}
-      className="bg-red-700 text-white p-3 rounded-lg uppercase hover:opacity-90"
+      className="bg-red-700 text-white p-3 rounded-lg uppercase hover:opacity-90 w-full"
     >
       Continue with google
     </button>
+    </div>
   );
 }
